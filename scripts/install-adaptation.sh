@@ -46,9 +46,9 @@ cleanup() {
 }
 
 apt install -y curl
-curl -sS https://mirror.bardia.tech/onclite/onclite.gpg | tee /etc/apt/trusted.gpg.d/onclite.gpg
-curl https://mirror.bardia.tech/onclite/onclite.gpg | sudo apt-key add -
-curl -sS -o /etc/apt/sources.list.d/onclite.list https://mirror.bardia.tech/onclite/onclite.list
+curl -sS https://mirror.bardia.tech/lavender/lavender.gpg | tee /etc/apt/trusted.gpg.d/lavender.gpg
+curl https://mirror.bardia.tech/lavender/lavender.gpg | sudo apt-key add -
+curl -sS -o /etc/apt/sources.list.d/lavender.list https://mirror.bardia.tech/lavender/lavender.list
 apt update
 
 tmpdir="$(mktemp -d)"
