@@ -113,7 +113,7 @@ mv ${WORK_DIR}/userdata.img ${WORK_DIR}/target/data/userdata.img
 
 apt update
 apt install wget -y
-wget https://github.com/droidian-starqlte/android_kernel_samsung_sdm845/releases/download/boot/boot.img
+wget https://github.com/droidian-starqlte/android_kernel_samsung_sdm845/releases/download/starqlte/boot.img
 cp ./boot.img ${WORK_DIR}/target/data/boot.img
 
 # generate zip
